@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+/usr/local/bin/ipython notebook --no-browser --port="${PORT}" --ip='*' --notebook-dir="/var/data/experiments"
+
