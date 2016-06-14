@@ -1,4 +1,4 @@
 #! /usr/bin/env bash
 
-/usr/local/bin/ipython notebook --no-browser --port="${PORT}" --ip='*' --notebook-dir="/var/data/experiments"
+/usr/local/bin/ipython notebook --no-browser --port="${PORT}" --ip='*' --notebook-dir="/var/data/experiments" || sleep 1000000
 
